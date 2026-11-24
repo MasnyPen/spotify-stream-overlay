@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="overlay">
+
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="cover-wrapper">
+                <img id="cover" class="cover"
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Crect width='120' height='120' fill='%232b2d35'/%3E%3C/svg%3E"
+                    alt="Okładka albumu">
+
+                <div id="pauseIndicator" class="pause-indicator">
+                    <svg viewBox="0 0 24 24" fill="white">
+                        <rect x="6" y="4" width="4" height="16" rx="1" />
+                        <rect x="14" y="4" width="4" height="16" rx="1" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="details">
+
+                <div id="title" class="title">
+                    Waiting for the track...
+                </div>
+
+                <div id="artist" class="artist">
+                    Spotify
+                </div>
+
+                <div id="album" class="album"></div>
+
+            </div>
+
+        </div>
+
+        <div class="progress">
+
+            <div class="progress-bar">
+                <div id="progress" class="progress-fill"></div>
+            </div>
+
+            <div class="times">
+                <span id="elapsed">0:00</span>
+                <span id="remaining">−0:00</span>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/script.js" defer></script>
+
+</body>
+
+</html>
