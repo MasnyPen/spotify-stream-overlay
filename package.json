@@ -1,0 +1,25 @@
+{
+  "name": "spotify-stream-overlay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasnyPen/spotify-stream-overlay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasnyPen/spotify-stream-overlay/issues"
+  },
+  "homepage": "https://github.com/MasnyPen/spotify-stream-overlay#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
