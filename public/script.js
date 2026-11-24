@@ -97,4 +97,4 @@ function connectWebSocket() {
 
 connectWebSocket();
 
-setInterval(updateProgress, 100);
+setInterval(updateProgress, 250);
